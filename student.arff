@@ -1,0 +1,20 @@
+% my data
+@relation student
+@attribute rno numeric
+@attribute Firstname string
+@attribute Lastname string
+@attribute dept {cse,ece,eee,it,civil}
+@attribute class {I,II,III,IV}
+@attribute CGPA numeric
+@attribute status {PASS,FAIL}
+@attribute age numeric
+@attribute mobilenumber numeric
+
+@data
+501, Ramya,chowdary,cse,IV,9.0,PASS,23,8074260766
+502, Rahul,Singh,eee,II,7.0,PASS,20,8074260767
+503, Yamini,Rajvas,cse,IV,9.0,PASS,23,8074260768
+504, Karthik,Medarmetla,ece,III,6.0,PASS,22,8074260769
+505, Harsha,Reddy,ece,IV,4.0,FAIL,23,8074260710
+507, Joshna,Yadav,civil,III,3.0,FAIL,26,8074260711
+508, Pavan,chowdary,it,I,8.5,PASS,27,8074260712
