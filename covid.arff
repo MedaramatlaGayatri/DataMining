@@ -1,0 +1,15 @@
+% my data
+@relation covid
+@attribute Firstname string
+@attribute Lastname string
+@attribute age numeric
+@attribute gender {male,female,others}
+@attribute status {yes,no}
+@attribute mobilenumber string
+
+@data
+Pavan, Kumar,18,male,no, 9959125028
+Arun, Malhotra,23,male,yes,9959125027
+Ali,Shaik,32,male,yes,9924576849
+Kavya,Reddy,34, female,yes,7654321245
+Anusha,Yadav,23,female,no,8074360765
